@@ -1,4 +1,3 @@
-window.addEventListener('DOMContentLoaded', () => {
   const postsContainer = document.getElementById('posts');
 
   fetch('https://jsonplaceholder.typicode.com/posts')
@@ -40,4 +39,4 @@ window.addEventListener('DOMContentLoaded', () => {
       });
     })
     .catch(error => console.error(error));
-});
+
