@@ -1,4 +1,3 @@
-// script.js
 window.addEventListener('DOMContentLoaded', () => {
   const postsContainer = document.getElementById('posts');
 
